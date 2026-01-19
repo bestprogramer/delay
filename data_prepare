@@ -1,0 +1,5 @@
+第零步:确定时间范围和小中大成交量的日期 settlement_index
+第一步:下载原始数据 程序database_test download
+第二步:内存中解压原始数据与生成频道npy segment_fit_njit.py
+第三步:排序日内各个频道的原始数据,并保存成单日一个npy
+第四步:
